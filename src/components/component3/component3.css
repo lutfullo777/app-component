@@ -1,0 +1,13 @@
+.component3{
+    padding: 25px;
+}
+.component3 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(129, 126, 126);
+}
+.component3 span{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(77, 76, 76);
+}

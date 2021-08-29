@@ -1,0 +1,86 @@
+.component{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 3px 5px 1px  rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.component1 div{
+    width: 90%;
+    margin: auto;
+}
+.name{
+    padding-top: 40px;
+}
+.name h3{
+    color: rgb(105, 93, 93);
+}
+.component1 div img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.component1 div p{
+    font-size: 12px;
+    color: rgb(167, 159, 159);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.component1 div ul {
+
+    display: flex;
+    list-style: none;
+}
+.icons{
+    margin: 30px 0;
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+    
+}
+.icons li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+.icons li:hover{
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+.control{
+    justify-content: space-evenly;
+}
+.control li{
+    width: 45%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(194, 189, 189);
+    font-size: 14px;
+    justify-content: space-around;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid rgb(194, 189, 189);
+}
+.control li:hover{
+    color: #fff;
+    border: none;
+    background-color: rgb(40, 200, 255);
+}
+
+@media (max-width:600px){
+    .component1,.component2,.component3{
+      width: 95%;
+    }
+  }
