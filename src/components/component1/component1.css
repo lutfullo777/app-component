@@ -50,17 +50,23 @@
     cursor: pointer;
     width: 50px;
     height: 100%;
+    outline: none;
     border-radius: 50%;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
 }
 .icons li:hover{
     box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
+
+}
+.icons li:focus{
+    border-radius: 20px;
 }
 .control{
     justify-content: space-evenly;
 }
 .control li{
+    outline: none;
     width: 45%;
     border-radius: 20px;
     display: flex;
@@ -72,6 +78,9 @@
     height: 40px;
     cursor: pointer;
     border: 1px solid rgb(194, 189, 189);
+}
+.control li:focus{
+    border-radius: 20px;
 }
 .control li:hover{
     color: #fff;
