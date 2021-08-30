@@ -12,7 +12,7 @@ function Component2() {
             </div>
             <div className='footer'>
                 <ul>
-                    <li><img src={image1} alt="rasm-2" /> Jhon Doe</li>
+                    <li><img src={image1} alt="rasm-2" /> John Doe</li>
                     <li style={{ justifyContent: 'flex-end' }}><FaRegHeart className="icon-2" /><FaRegComment className="icon-2" /></li>
                 </ul>
             </div>

@@ -9,7 +9,7 @@ function Component1() {
         <div className="component1 component">
             <div className="name">
                 <img src={image} alt="rasm-1" />
-                <h3>Jhon Doe</h3>
+                <h3>John Doe</h3>
                 <p>Web App Designer</p>
             </div>
             <div>
